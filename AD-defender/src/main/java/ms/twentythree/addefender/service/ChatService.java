@@ -11,7 +11,7 @@ public class ChatService {
     private final ChatgptService chatgptService;
 
     public String getChatResponse(String prompt) {
-        // ChatGPT 에게 질문을 던집니다.
+        // ChatGPT 에게 질문을 던진다.
         return chatgptService.sendMessage(prompt);
     }
 }

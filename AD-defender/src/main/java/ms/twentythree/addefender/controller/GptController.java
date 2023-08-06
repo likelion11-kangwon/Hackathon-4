@@ -23,7 +23,6 @@ public class GptController {
     @PostMapping("")
     public String test(@RequestBody String question){
         return chatService.getChatResponse(question);
-        //\n\nAs an AI language model, I don't have feelings, but I'm functioning well. Thank you for asking. How can I assist you today?
     }
 
 }
