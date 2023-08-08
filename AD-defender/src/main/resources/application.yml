@@ -1,0 +1,8 @@
+chatgpt:
+  api-key: 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
+
+
+logging:
+  level:
+    org.apache.http: DEBUG
+    httpclient.wire: DEBUG
